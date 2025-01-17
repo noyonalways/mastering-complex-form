@@ -1,50 +1,38 @@
-# React + TypeScript + Vite
+[![Youtube][youtube-shield]][youtube-url]
+[![Facebook][facebook-shield]][facebook-url]
+[![Facebook Page][facebook-shield]][facebook-group-url]
+[![Instagram][instagram-shield]][instagram-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+[![VS Code Theme][vscode-shield]][vscode-theme-url]
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+    <img src="https://i.ibb.co/c64q254/noyon-logo-dark.png" alt="Logo" width="80" height="80" />
+    <h3 align="center">
+        <a href="https://github.com/noyonalways/mastering-complex-form" target="_blank" >
+            Mastering Complex Form
+        </a>
+    </h3>
+</p>
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Contact
 
-## Expanding the ESLint configuration
+- Email: [noyonrahman2003@gmail.com](mailto:noyonrahman2003@gmail.com)
+- LinkedIn: [Noyon Rahman](https://linkedin.com/in/noyonalways)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<!-- MARKDOWN LINKS & IMAGES -->
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+[youtube-shield]: https://img.shields.io/badge/-Youtube-black.svg?style=round-square&logo=youtube&color=555&logoColor=white
+[youtube-url]: https://youtube.com/@deskofnoyon
+[facebook-shield]: https://img.shields.io/badge/-Facebook-black.svg?style=round-square&logo=facebook&color=555&logoColor=white
+[facebook-url]: https://facebook.com/noyonalways
+[facebook-group-url]: https://facebook.com/webbronoyon
+[instagram-shield]: https://img.shields.io/badge/-Instagram-black.svg?style=round-square&logo=instagram&color=555&logoColor=white
+[instagram-url]: https://instagram.com/noyonalways
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=round-square&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/noyonalways
+[vscode-shield]: https://img.shields.io/badge/-VS%20Code%20Theme-black.svg?style=round-square&logo=visualstudiocode&colorB=555
+[vscode-theme-url]: https://marketplace.visualstudio.com/items?itemName=noyonalways.codevibe-themes
