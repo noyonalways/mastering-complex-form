@@ -1,7 +1,7 @@
 import { z } from "zod";
-import { Input, Select } from "../../components/FormElements";
-import FormProvider from "../../components/FormProvider";
 import { BasicFormData, BasicFormProps } from "./types";
+import FormProvider from "../../FormProvider";
+import { Input, Select } from "../../FormElements";
 
 const schema = z.object({
   name: z.string().min(1, "Name is required"),

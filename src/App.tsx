@@ -1,5 +1,5 @@
 import "./App.css";
-import { BasicForm } from "./features/forms";
+import { BasicForm } from "./components/forms";
 
 function App() {
   return (
